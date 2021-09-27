@@ -296,6 +296,13 @@ textarea {
 }
 
 @media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative
+    }
+
     .row { flex-direction: column; }
 
     .col-left,
@@ -341,6 +348,11 @@ textarea {
     .tm-col-footer {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .text-right {
+        position:relative;
+        left: -10px;
     }
 }
 
