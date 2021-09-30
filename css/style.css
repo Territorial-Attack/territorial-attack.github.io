@@ -169,6 +169,10 @@ hr { border-top: 1px solid white; }
     border-radius: 20px;
 }
 
+.btn-play {
+    margin-left: 25px;
+}
+
 .btn-big {
     padding: 9px 40px;
     font-size: 1.2rem;;
@@ -360,6 +364,12 @@ textarea {
     .tm-logo { margin-right: 15px; }
     .sitename { font-size: 1.8rem; }
     .tm-slogon { font-size: 0.8rem; }
+}
+
+@media (max-width: 290px) {
+    .btn-play {
+        margin-top:10px;
+    }
 }
 
 @media (max-width: 450px), (min-width: 768px) and (max-width: 830px), (min-width: 992px) and (max-width: 1040px) {
